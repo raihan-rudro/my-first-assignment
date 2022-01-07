@@ -16,13 +16,15 @@ body{
 }
 .top-part-div-1{
     padding-left: 145px !important;
+  
 }
  .top-part-div h1{
     font-size: 53px;
     border-left: 5px solid rgb(255,89,89) ;
     border-radius: 5px;
     padding-left:10px;
-  
+    
+   
     
     
 }
@@ -31,7 +33,9 @@ body{
     width:90%;
 }
 .top-part-div>h1>span{
-    color:rgb(255,173,90)
+    color:rgb(255,173,90);
+    margin-top: 50px;
+    
 }
 
 .details-button button{
@@ -71,7 +75,7 @@ body{
 .second-part-div-container{
     display: flex;
    
-    width:1066px;
+    width:1045px;
     justify-content: center;
 }
 .second-section-div{
@@ -88,6 +92,7 @@ body{
     background-color: rgb(237,245,246);
    box-shadow: 8px 8px 12px rgba(32, 173, 192, 0.8);
     margin-right:15px;
+    
 }
 .vission{
     background-color:rgb(255,238,238) ;
@@ -97,4 +102,34 @@ body{
 .goal{
     background-color:rgb(255, 244, 214) ;
    box-shadow: 8px 8px 12px rgb(138, 124, 88) ;
+}
+
+/*section second par end*/
+/*section third part start*/
+.section-third{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.section-third-div-container{
+    display: flex;
+    justify-content: center;
+    width:1045px;
+    margin-top: 30px;
+  
+
+}
+.section-third-div-1{
+    width:33.33%;
+}
+.section-third-div-2{
+    width:66%;
+}
+.section-third-div-1 img{
+    width:85%;
+}
+.section-third-div-2 h1{
+    font-size: 40px;
+    line-height: 26px;
 }
